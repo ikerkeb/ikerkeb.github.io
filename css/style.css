@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+header {
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: 5px;
+    padding-bottom: 45px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.portrait {
+    width: 600px;
+}
+
+.margin-200 {
+    margin: 200px;
+}
