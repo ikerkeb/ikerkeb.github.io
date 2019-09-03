@@ -8,7 +8,7 @@ header {
 
 header h1 {
     font-weight: 400;
-    font-size: 45px;
+    font-size: 47px;
     letter-spacing: 5px;
     padding-bottom: 45px;
     text-transform: uppercase;
@@ -25,6 +25,33 @@ header p {
     width: 600px;
 }
 
-.margin-200 {
-    margin: 200px;
+.margin-220 {
+    margin: 220px;
+}
+
+#about-me {
+    padding: 100px 0;
+}
+
+#about-me h2 {
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#about-me .about-me-title p {
+    padding-top: 20px;
+    font-family: 'Volkhov', serif;
+    font-style: italic;
+}
+
+#about-me p {
+    font-size: 18px;
+}
+
+#about-me img {
+    vertical-align: middle;
+    width: 100%;
 }
