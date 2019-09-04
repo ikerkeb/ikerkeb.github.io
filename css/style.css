@@ -114,3 +114,24 @@ header p {
 /* Blur + Gray Scale END */
 
 /* featured work END */
+
+/* Terminal START */
+
+.hidden {
+    opacity:0;
+}
+
+.console-container {
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    display:block;
+    color:black;
+}
+
+.console-underscore {
+    display:inline-block;
+    position:relative;
+}
+
+/* Terminal END */
