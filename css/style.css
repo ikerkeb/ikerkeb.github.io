@@ -164,8 +164,15 @@ header p {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
+
+@media (max-width: 767.98px) { 
+    #clients img {
+        margin-top: 30px;
+        padding: 60px;
+    }
+ }
 
 #clients img:hover {
 	-webkit-filter: grayscale(0);
