@@ -82,7 +82,7 @@ header p {
 
 /* about me END */
 
-/* section title START */
+/* section-title START */
 
 .section-title h2 {
     padding-bottom: 35px;
@@ -93,9 +93,9 @@ header p {
     text-align: center;
 }
 
-/* section title END */
+/* section-title END */
 
-/* featured work START */
+/* featured-work START */
 
 #featured-work {
     padding: 100px 0;
@@ -139,7 +139,7 @@ header p {
 
 /* Blur + Gray Scale END */
 
-/* featured work END */
+/* featured-work END */
 
 /* my-work START */
 
@@ -156,6 +156,14 @@ header p {
     line-height: 2;
     font-size: 18px;
     word-wrap: break-word;
+}
+
+/* my-work END */
+
+/* clients START */
+
+#clients {
+    padding: 100px 0;
 }
 
 /* Gray Scale START */
@@ -189,4 +197,4 @@ header p {
 
 /* Gray Scale END */
 
-/* my-work END */
+/* clients END */
