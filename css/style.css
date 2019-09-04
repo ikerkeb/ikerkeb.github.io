@@ -98,7 +98,7 @@ header p {
     color: black;
 }
 
-/* Blur + Gray Scale START */
+/* Blur + Gray Scale : https://codepen.io/nxworld/pen/ZYNOBZ START */
 
 .featured-img img {
 	-webkit-filter: grayscale(0) blur(0);
@@ -115,7 +115,7 @@ header p {
 
 /* featured work END */
 
-/* Terminal START */
+/* Terminal : https://codepen.io/Tbgse/pen/dYaJyJ START */
 
 .hidden {
     opacity:0;

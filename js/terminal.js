@@ -1,3 +1,5 @@
+// https://codepen.io/Tbgse/pen/dYaJyJ
+
 // function([string1, string2],target id,[color1,color2])    
 consoleText(['Human Being.', 'Full-Stack Developer.', 'Ruby Enthusiast.', 'Nomad.', 'Artist.'], 'text',['black']);
 
