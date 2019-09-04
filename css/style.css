@@ -58,7 +58,7 @@ header p {
 
 .about-me-title h2 {
     padding-top: 35px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 32px;
     letter-spacing: 2px;
     font-weight: 700;
@@ -86,12 +86,21 @@ header p {
 
 .section-title h2 {
     padding-bottom: 35px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 32px;
     letter-spacing: 2px;
     font-weight: 700;
     text-align: center;
 }
+
+.section-title h4 {
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+
 
 /* section-title END */
 
@@ -163,7 +172,7 @@ header p {
 /* clients START */
 
 #clients {
-    padding: 100px 0;
+    padding: 0;
 }
 
 /* Gray Scale START */
@@ -173,6 +182,7 @@ header p {
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
+    max-width: 50%;
 }
 
 @media (max-width: 767.98px) { 
