@@ -223,6 +223,7 @@ header p {
 
 /* contact END */
 
+/* footer START */
 
 footer {
     padding: 100px 0;
@@ -236,3 +237,16 @@ footer img {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
+.github img {
+    margin: 50px 0 50px 0;
+    height: 60px;
+    width: 60px;
+}
+
+.resume {
+    padding-bottom: 5px;
+    border-bottom: 3px black dashed;
+}
+
+/* footer END */
