@@ -174,47 +174,14 @@ header p {
 #clients {
     padding: 0;
 }
+.carousel-inner {
+    max-height: 400px;
+}
 
-@media (min-width: 767.98px) {
-    #clients img {
-        max-width: 100%;
+@media (min-width: 1200px) {
+    .client-logo {
+        padding: 0 15px 0 15px !important; 
     }
 }
-
-
-@media (min-width: 992px) {
-    #clients img {
-        max-width: 50%;
-    }
-}
-/* Gray Scale START */
-
-#clients img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-/*     
-#clients img {
-    margin-top: 30px;
-    padding: 60px;
-} */
-
-
-#clients img:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-}
-
-#clients .black-opacity {
-    opacity: 0.4;
-}
-
-#clients .black-opacity:hover {
-    opacity: 1;
-}
-
-/* Gray Scale END */
 
 /* clients END */
