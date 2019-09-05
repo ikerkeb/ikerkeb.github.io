@@ -174,6 +174,16 @@ header p {
 #clients {
     padding: 0;
 }
+
+#clients img {
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 .carousel-inner {
     max-height: 400px;
 }
@@ -185,3 +195,43 @@ header p {
 }
 
 /* clients END */
+
+/* contact START */
+
+#contact {
+    padding: 100px 0;
+}
+
+#contact a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#contact h4 {
+    padding-top: 20px;
+    /* -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 6px -6px #000000;
+    -webkit-box-shadow: 0px 8px 6px -6px #000000;
+    -moz-box-shadow: 0px 8px 6px -6px #000000; */
+ }
+
+/* contact END */
+
+
+footer {
+    padding: 100px 0;
+}
+
+footer img {
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
