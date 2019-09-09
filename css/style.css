@@ -224,14 +224,16 @@ header p {
     text-decoration: none;
 }
 
+.email-div {
+    margin-bottom: 56px;
+}
+
 .email-button h4 {
     margin-top: 20px;
     margin: 0;
 }
 
 .email-button {
-    margin-bottom: 56px;
-
     -webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
     
@@ -252,7 +254,7 @@ header p {
     border: 3px white solid;
 }
 
-.github {
+.github-div {
     margin-bottom: 36px;
 }
 
