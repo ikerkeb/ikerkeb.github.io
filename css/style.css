@@ -230,6 +230,8 @@ header p {
 }
 
 .email-button {
+    margin-bottom: 56px;
+
     -webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
     
@@ -242,7 +244,6 @@ header p {
 	-webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
-    margin-bottom: 56px;
 }
 
 .email-button:hover {
@@ -266,7 +267,7 @@ header p {
 }
 
 .resume-h4 {
-    padding: 20px 0 20px 0;
+    padding: 23px 0 20px 0;
     overflow: hidden;
 }
 
